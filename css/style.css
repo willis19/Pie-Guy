@@ -75,6 +75,27 @@ body {
     margin-top: 20px;
 }
 
+.contact h3 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.info h4 {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.info p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
 .footer {
     width: 100%;
     height: 60px;
