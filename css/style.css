@@ -36,31 +36,59 @@ body {
 .featured h3 {
     color: white;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
     font-size: 25px;
     padding: 20px;
+}
+
+.popular h3 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.popular1, .popular2, .popular3 {
+    color: white;
+    text-align: center;
+    flex: 0 1 300px;
+    font-size: 25px;
+}
+
+.popular1 img, .popular2 img, .popular3 img {
+    width: 250px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 20px;
+}
+
+.popular-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .pizza-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 30px;
     flex-wrap: wrap;
-    padding: 20px;
-    margin-top: 20px;
 }
 
 .pizza1, .pizza2, .pizza3 {
     color: white;
     text-align: center;
     flex: 0 1 300px;
+    font-size: 25px;
 }
 
 .pizza1 img, .pizza2 img, .pizza3 img {
     width: 250px;
     border-radius: 10px;
-    margin-top: 25px;
+    border-style: solid;
+    margin-top: 20px;
 }
 
 .menu-items {
